@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dracoutility",
+  "version": "${version}",
+  "name": "Draco Utility",
+  "description": "Client-side utility menu for singleplayer and private servers: ESP, X-ray, guide line, minimap, waypoints and more. Locked unless you have cheats / OP level 2+.",
+  "authors": ["DUCNGUYEN-creator (Draco Studio)"],
+  "license": "GPL-3.0-only",
+  "icon": "assets/dracoutility/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["studio.draco.utility.DracoUtilityClient"]
+  },
+  "mixins": ["dracoutility.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

@@ -1,0 +1,11 @@
+// Draco Utility - Copyright (C) 2026 DUCNGUYEN-creator (Draco Studio)
+// Licensed under the GNU General Public License v3. See the LICENSE file.
+
+pluginManagement {
+    repositories {
+        maven { name = 'Fabric'; url = 'https://maven.fabricmc.net/' }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+rootProject.name = 'dracoutility'

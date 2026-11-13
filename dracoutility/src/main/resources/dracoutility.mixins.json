@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "studio.draco.utility.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "BlockMixin",
+    "SodiumOcclusionMixin",
+    "SodiumOcclusionLegacyMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dracoutility",
+  "version": "${version}",
+  "name": "Draco Utility",
+  "description": "A client framework for singleplayer and private servers: modules, Click GUI, HUD editor, ESP, X-ray, guide line, minimap, waypoints, profiles and commands. Per-server capability profiles decide which modules may run.",
+  "authors": ["DUCNGUYEN-creator (Draco Studio)"],
+  "license": "GPL-3.0-only",
+  "icon": "assets/dracoutility/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["studio.draco.utility.DracoUtilityClient"]
+  },
+  "mixins": ["dracoutility.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
